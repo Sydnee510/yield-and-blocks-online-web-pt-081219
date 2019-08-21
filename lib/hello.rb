@@ -1,6 +1,7 @@
 def hello_t(name)
   name.each {|name| puts name} 
-#yield 
+yield
+
 #  "Hey! No block was given!"
   
 
