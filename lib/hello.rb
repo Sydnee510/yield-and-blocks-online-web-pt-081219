@@ -1,7 +1,7 @@
 def hello_t(name)
   name.each {|name| puts name} 
-yield
-{ |name| puts name.upcase } 
+#yield
+#{ |name| puts name.upcase } 
 #  "Hey! No block was given!"
   
 
